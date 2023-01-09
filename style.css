@@ -1,14 +1,7 @@
-.header {
-    display: flex;
-   justify-content: space-between;
-}
 
-ul {
-    list-style-type: none;
+body {
     display: flex;
-    justify-content: space-around;
-}
-
-li {
-    padding: 15px;
+    flex-direction: column;
+    min-height: 100vh;
+    border: solid 1px red;
 }

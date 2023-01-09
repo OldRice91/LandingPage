@@ -5,3 +5,26 @@ body {
     min-height: 100vh;
     border: solid 1px red;
 }
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex: 1 1 0%;
+    border: solid 1px red;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 12px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
